@@ -32,3 +32,36 @@ input {
 	float: left;
 	margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+
+#playerButtons {
+	margin-bottom: 20px;
+}
+
+#input {
+	float: left;
+}
+
+#topic {
+	width: 350px;
+}
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+#playerButtons {
+	margin-bottom: 20px;
+}
+
+#input {
+	float: left;
+}
+
+#topic {
+	width: 350px;
+}
+
+}
