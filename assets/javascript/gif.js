@@ -39,7 +39,7 @@ var topics = ["Chritiano Ronaldo", "Lionel Messi", "Neymar", "Zlatan IbrahimoviÄ
 	  		$("#playerLounge").empty();
 	        
 	        var category = $(this).attr("data-name");
-	        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + category + "&api_key=dc6zaTOxFJmzC&limit=10";
+	        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + category + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 	        $.ajax({
 	            url: queryURL,
