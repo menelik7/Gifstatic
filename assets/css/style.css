@@ -54,10 +54,16 @@ input {
 }
 
 footer {
+	background: #2F6FB9;
 	font-family: 'Abril Fatface', cursive;
 	color: #fff;
 	text-align: center;
+	margin-top: 200px;
+	padding: 45px;
 }
+
+
+/***Media Query**/
 
 @media screen and (max-width: 768px) {
 
@@ -78,7 +84,22 @@ footer {
 	width: 350px;
 }
 
+#playerLounge {
+	margin-bottom: 210px;
 }
+
+footer {
+	background: #2F6FB9;
+	font-family: 'Abril Fatface', cursive;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+
+
+}
+
+
 
 
 @media screen and (max-width: 640px) {
@@ -98,6 +119,18 @@ footer {
 
 #topic {
 	width: 374.4px;
+}
+
+#playerLounge {
+	margin-bottom: 210px;
+}
+
+footer {
+	background: #2F6FB9;
+	font-family: 'Abril Fatface', cursive;
+	color: #fff;
+	text-align: center;
+	margin: auto;
 }
 
 }
