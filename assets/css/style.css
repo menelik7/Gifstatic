@@ -2,8 +2,19 @@ body {
 	background: url("../images/whitey.png");
 }
 
+.jumbotron {
+	background-color: #fff;
+	height: 150px;
+}
+
+.jumbotron h1 {
+	margin: auto;
+	color: #2F6FB9;
+}
+
 #playerButtons {
 	margin-bottom: 50px;
+	padding: 0;
 }
 
 #input {
@@ -35,6 +46,11 @@ input {
 
 @media screen and (max-width: 768px) {
 
+.jumbotron {
+	background-color: #fff;
+	height: 100px;
+}
+
 #playerButtons {
 	margin-bottom: 20px;
 }
@@ -51,6 +67,11 @@ input {
 
 
 @media screen and (max-width: 640px) {
+
+.jumbotron {
+	background-color: #fff;
+	height: 100px;
+}
 
 #playerButtons {
 	margin-bottom: 20px;
