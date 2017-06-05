@@ -1,7 +1,3 @@
-html {
-	background: #2F6FB9;
-}
-
 body {
 	background: url("../images/whitey.png");
 }
@@ -28,6 +24,7 @@ body {
 #input {
 	float: right;
 	padding: 0;
+	margin-bottom: 50px;
 }
 
 input {
@@ -40,13 +37,12 @@ input {
 }
 
 #topic {
-	width: 280px;
+	width: 284px;
 }
 
 #playerLounge {
 	float: left;
 	padding: 0;
-	margin-bottom: 240px;
 }
 
 .item {
@@ -63,20 +59,20 @@ footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	margin-top: 10px;
-	padding: 25px 0;
-	background: #2F6FB9;
 	font-size: 12px;
 	font-family: 'Abril Fatface', cursive;
 	color: #fff;
 	text-align: center;
-	padding: 45px;
 }
 
 
 /***Media Query**/
 
 @media screen and (max-width: 768px) {
+
+html {
+	background: #2F6FB9;
+}
 
 .jumbotron {
 	background-color: #fff;
@@ -89,7 +85,7 @@ footer {
 
 #input {
 	float: left;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 }
 
 #topic {
@@ -107,6 +103,10 @@ footer {
 
 @media screen and (max-width: 640px) {
 
+html {
+	background: #2F6FB9;
+}
+
 .jumbotron {
 	background-color: #fff;
 	height: 100px;
@@ -118,6 +118,7 @@ footer {
 
 #input {
 	float: left;
+	margin-bottom: 50px;
 }
 
 #topic {
