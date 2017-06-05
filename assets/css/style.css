@@ -2,6 +2,10 @@ body {
 	background: url("../images/whitey.png");
 }
 
+.container {
+	padding: 20px;
+}
+
 .jumbotron {
 	background-color: #fff;
 	height: 150px;
@@ -83,7 +87,7 @@ input {
 }
 
 #topic {
-	width: 384.4px;
+	width: 374.4px;
 }
 
 }
