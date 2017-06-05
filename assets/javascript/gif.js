@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-var topics = ["Chritiano Ronaldo", "Lionel Messi", "Neymar", "Zlatan Ibrahimović", "Luis Suárez", "Gareth Bale", "Arjen Robben", "Paul Pogba", "Sergio Ramos", "Didier Drogba"];
+var topics = ["Rafa Nadal", "Roger Federer", "Novak Djokovic", "Chritiano Ronaldo", "Lionel Messi", "Neymar", "Zlatan Ibrahimović", "Gareth Bale", "Arjen Robben", "Paul Pogba"];
 
 
 	function renderButtons() {
