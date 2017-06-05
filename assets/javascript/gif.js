@@ -19,7 +19,7 @@ var topics = ["Rafa Nadal", "Roger Federer", "Novak Djokovic", "Chritiano Ronald
 
 
 	$("#add-player").on("click", function(event) {
-
+                      
 			event.preventDefault();
 			var player = $("#topic").val().trim();
 
@@ -33,6 +33,7 @@ var topics = ["Rafa Nadal", "Roger Federer", "Novak Djokovic", "Chritiano Ronald
 	});
 
 			renderButtons();
+	                $("#topic").html("");
 
 	function displayPlayer(){
 
