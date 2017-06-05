@@ -46,6 +46,7 @@ input {
 #playerLounge {
 	float: left;
 	padding: 0;
+	margin-bottom: 240px;
 }
 
 .item {
@@ -53,12 +54,22 @@ input {
 	padding: 10px 10px 10px 0;
 }
 
+p {
+	font-size: 12px;
+	font-family: 'Abril Fatface', cursive;
+}
+
 footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-top: 10px;
+	padding: 25px 0;
 	background: #2F6FB9;
+	font-size: 12px;
 	font-family: 'Abril Fatface', cursive;
 	color: #fff;
 	text-align: center;
-	margin-top: 200px;
 	padding: 45px;
 }
 
@@ -78,6 +89,7 @@ footer {
 
 #input {
 	float: left;
+	margin-bottom: 10px;
 }
 
 #topic {
@@ -85,17 +97,8 @@ footer {
 }
 
 #playerLounge {
-	margin-bottom: 210px;
+	margin-bottom: 200px;
 }
-
-footer {
-	background: #2F6FB9;
-	font-family: 'Abril Fatface', cursive;
-	color: #fff;
-	text-align: center;
-	margin: auto;
-}
-
 
 }
 
@@ -122,15 +125,7 @@ footer {
 }
 
 #playerLounge {
-	margin-bottom: 210px;
-}
-
-footer {
-	background: #2F6FB9;
-	font-family: 'Abril Fatface', cursive;
-	color: #fff;
-	text-align: center;
-	margin: auto;
+	margin-bottom: 200px;
 }
 
 }
