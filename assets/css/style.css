@@ -32,7 +32,7 @@ input {
 }
 
 #topic {
-	width: 200px;
+	width: 280px;
 }
 
 #playerLounge {
@@ -42,7 +42,7 @@ input {
 
 .item {
 	float: left;
-	margin: 10px;
+	padding: 10px 10px 10px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -83,7 +83,7 @@ input {
 }
 
 #topic {
-	width: 350px;
+	width: 384.4px;
 }
 
 }
