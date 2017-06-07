@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-var topics = ["Rafa Nadal", "Roger Federer", "Novak Djokovic", "Chritiano Ronaldo", "Lionel Messi", "Neymar", "Zlatan Ibrahimović", "Gareth Bale", "Arjen Robben", "Paul Pogba"];
+	var topics = ["Rafa Nadal", "Roger Federer", "Novak Djokovic", "Chritiano Ronaldo", "Lionel Messi", "Neymar", "Zlatan Ibrahimović", "Gareth Bale", "Arjen Robben", "Paul Pogba"];
 
 
 	function renderButtons() {
@@ -23,17 +23,19 @@ var topics = ["Rafa Nadal", "Roger Federer", "Novak Djokovic", "Chritiano Ronald
 			event.preventDefault();
 			var player = $("#topic").val().trim();
 
+
 			if (player == ""){
 		      return false;
 		    }
 
 			topics.push(player);
 			renderButtons();
+			$("#topic").val("");
 			return false;
 	});
 
-			renderButtons();
-	                $("#topic").html("");
+	renderButtons();
+	                
 
 	function displayPlayer(){
 
@@ -70,20 +72,19 @@ var topics = ["Rafa Nadal", "Roger Federer", "Novak Djokovic", "Chritiano Ronald
 						gifDiv.prepend(gifImage);
 						$("#playerLounge").prepend(gifDiv);
 					}
-
 	        });
 	}
 
 
 	$(document).on("click", ".image", function(){
-    var state = $(this).attr('data-state');
-    if ( state == 'still'){
-        $(this).attr('src', $(this).data('animate'));
-        $(this).attr('data-state', 'animate');
-    }else{
-        $(this).attr('src', $(this).data('still'));
-        $(this).attr('data-state', 'still');
-    }
+    	var state = $(this).attr('data-state');
+	    if ( state == 'still'){
+	        $(this).attr('src', $(this).data('animate'));
+	        $(this).attr('data-state', 'animate');
+	    }else{
+	        $(this).attr('src', $(this).data('still'));
+	        $(this).attr('data-state', 'still');
+	    }
     });
 
 
